@@ -41,7 +41,7 @@ function addI(color) {
 
 function rotate() {
     /*
-        indeks, rad og kolonne for brettet: 
+        indeks, rad og kolonne for alle rutene på brettet: 
         |-------------------------|-------------------------|-------------------------|-------------------------|
         | indeks  0, col=0, rad=0 | indeks  1, col=1, rad=0 | indeks  2, col=2, rad=0 | indeks  3, col=3, rad=0 |
         | indeks  4, col=0, rad=1 | indeks  5, col=1, rad=1 | indeks  6, col=2, rad=1 | indeks  7, col=3, rad=1 | 
