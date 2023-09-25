@@ -10,7 +10,7 @@ function countBlackJackPoints(cards) {
         else points += parseInt(rank);
     }
     while (aceCount > 0) {
-        points += points + 11 > 21 ? 1 : 11;
+        points += points + 11 >= 21 ? 1 : 11;
         aceCount--;
     }
     return points;
